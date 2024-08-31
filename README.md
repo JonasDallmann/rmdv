@@ -8,6 +8,12 @@ RMDV is a Python-based tool designed to create honeypots and automatically ban s
 - IP Banning: Automatically add IP addresses to the IP-Tables blacklist.
 - Logging: Log all things trough discord webhooks.
 
+## Requirements
+#### These things are needed to run RMDV smoothly:
+- Linux server
+- Python3
+
+
 ## Installation
 #### Follow these steps to install and run RMDV:
 
