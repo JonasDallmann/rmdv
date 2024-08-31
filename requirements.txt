@@ -1,0 +1,5 @@
+requests
+mysql-connector-python
+colorama
+datetime
+discord_webhook

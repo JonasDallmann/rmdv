@@ -1,0 +1,66 @@
+{
+    "database": {
+        "host": "DATABASE-HOST",
+        "user": "USERNAME",
+        "password": "PASSWORD",
+        "database": "DATABASE-NAME"
+    },
+
+    "discord": {
+        "useWebhooks": true,
+        "webhookurl": "YOUR-WEBHOOK-URL"
+    },
+
+    "honeypots": [
+        {
+            "name": "FTP",
+            "port": 21,
+            "protocol": "TCP"
+        },
+        {
+            "name": "RDP",
+            "port": 3389,
+            "protocol": "TCP"
+        },
+        {
+            "name": "Telnet",
+            "port": 23,
+            "protocol": "TCP"
+        },
+        {
+            "name": "SMTP",
+            "port": 25,
+            "protocol": "TCP"
+        },
+        {
+            "name": "RPC",
+            "port": 135,
+            "protocol": "TCP"
+        },
+        {
+            "name": "SMB",
+            "port": 445,
+            "protocol": "TCP"
+        },
+        {
+            "name": "SIP",
+            "port": 5060,
+            "protocol": "TCP"
+        },
+        {
+            "name": "VNC",
+            "port": 5900,
+            "protocol": "TCP"
+        },
+        {
+            "name": "IRC",
+            "port": 6667,
+            "protocol": "TCP"
+        },
+        {
+            "name": "DNS",
+            "port": 53,
+            "protocol": "UDP"
+        }
+    ]
+}
