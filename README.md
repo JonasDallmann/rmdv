@@ -11,15 +11,23 @@ RMDV is a Python-based tool designed to create honeypots and automatically ban s
 ## Installation
 #### Follow these steps to install and run RMDV:
 
-```git clone https://github.com/jonasdallmann/honeypot-linux.git```
+```bash
+git clone https://github.com/jonasdallmann/honeypot-linux.git
+```
 
-```cd rmdv```
+```bash
+cd rmdv
+```
 
-```pip install -r requirements.txt```
+```bash
+pip install -r requirements.txt
+```
 
 - Configuration: Edit the config.json file to suit your needs.
 
-```python3 rmdv.py```
+```bash
+python3 rmdv.py
+```
 
 ## Contributing
 Feel free to submit issues or pull requests if you find bugs or have improvements to suggest.
